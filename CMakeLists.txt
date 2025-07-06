@@ -10,6 +10,6 @@ elseif (CMAKE_HOST_UNIX)
     set(LINUX 1)
 endif ()
 
-set (SRC_LIST "main.cpp")
+set (SRC_LIST "test.cpp")
 
 add_executable(${PROJECT_NAME} ${SRC_LIST})
